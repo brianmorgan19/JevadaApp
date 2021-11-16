@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/figmaappp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/button_background.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/button_next_correct.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/buttpn_task.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/ed_rec.xml" value="0.2708333333333333" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/fgpass_color.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/logo_activity_button.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/next.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/popwrong_button.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/rectan.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/rectask1.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/rectask2.xml" value="0.2708333333333333" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/s_circle.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/skip.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_home.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_logo.xml" value="0.30027173913043476" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_popupactivity.xml" value="0.20520833333333333" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task1.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task2.xml" value="0.33" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task3.xml" value="0.25" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task31.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_viewpaper1.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/f_circles.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/first_greeting.xml" value="0.30027173913043476" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_correct.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_correct2.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_incorrect.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_more.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_tasks.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/more_fragment.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/popup2.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/popup_false_task2.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/popup_true_task2.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/popupwindow.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/rg.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/s_circle.xml" value="0.30027173913043476" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/skeleton.xml" value="0.29393115942028986" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/t_circle.xml" value="0.30027173913043476" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/t_circles.xml" value="0.29393115942028986" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/task3_correct.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/task3_incorrect.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/menu/btn_nav_bar.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
