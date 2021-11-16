@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="244dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="144dp"
+            android:fontFamily="@font/podkova"
+            android:text="Translate to Russian"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="108dp"
+            android:layout_height="85.4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/monitor" />
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="96dp"
+            android:layout_height="29dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="210dp"
+            android:fontFamily="@font/marvel"
+            android:text="Monitor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="153dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="165dp"
+            android:background="@drawable/rectask2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="332dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ed_rec" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="107dp"
+        android:id="@+id/correct_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="415dp"
+            android:layout_height="90dp"
+            android:background="#FFAAAA" />
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/wrongg"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:fontFamily="@font/podkova"
+            android:text="Right answer:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="41dp"
+            android:layout_width="110dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:fontFamily="@font/podkova"
+            android:text="right answer here!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/notCorrect"
+            android:layout_width="129dp"
+            android:layout_height="49dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/popwrong_button"
+            android:fontFamily="@font/podkova"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

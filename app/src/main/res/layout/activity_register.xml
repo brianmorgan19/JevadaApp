@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="#E5E5E5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape" />
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:text="5:30 am"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/group5"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="271dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/podkova"
+            android:text="Welcome to CampTavel!"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/podkova"
+            android:text="Let’s help you to find best destination."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:paddingLeft="12dp"
+            android:id="@+id/ed1"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="68dp"
+            android:width="50dp"
+            android:height="310dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:hint="Enter your full name"
+            android:inputType="text"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:paddingLeft="12dp"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="29dp"
+            android:width="310dp"
+            android:height="50dp"
+            android:background="@drawable/rectangle"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectangle"
+            android:inputType="textPassword"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="29dp"
+            android:hint="Confirm password"
+            android:textSize="14sp"
+            android:layout_height="50dp" android:layout_width="310dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:id="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFF"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:layout_marginTop="36dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Already have an account?"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="13dp"
+            android:onClick="SignIn"
+            android:text="Sign in"
+            android:textAlignment="center"
+            android:textColor="#009E9E"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

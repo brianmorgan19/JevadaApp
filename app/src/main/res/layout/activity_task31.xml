@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="244dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="144dp"
+            android:fontFamily="@font/podkova"
+            android:text="Translate to Russian"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="108dp"
+            android:layout_height="85.4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/monitor" />
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="96dp"
+            android:layout_height="29dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="210dp"
+            android:fontFamily="@font/marvel"
+            android:text="Monitor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="153dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="165dp"
+            android:background="@drawable/rectask2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="332dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ed_rec" />
+
+        <EditText
+            android:inputType="textCapSentences"
+            android:id="@+id/edText"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:fontFamily="@font/podkova"
+            android:hint="Введите на русском"
+            android:maxLines="7"
+            android:singleLine="false"
+            android:textColor="#707070"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/linet1"
+            android:layout_width="500dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="91dp"
+            android:background="#CABBBB" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="120dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/skip"
+            android:fontFamily="@font/podkova"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#CABBBB"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/btn_next"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/next"
+            android:fontFamily="@font/podkova"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
