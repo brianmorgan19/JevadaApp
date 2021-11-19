@@ -5,19 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="#FFFFFF">
+    tools:context=".Splashscreenactivity">
 
 
-    <com.google.android.material.tabs.TabLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:id="@+id/TabLayout"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/id_viewpaper2"/>
+    <ImageView
+        android:background="@drawable/w1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    </RelativeLayout>
+
 
 
 </LinearLayout>

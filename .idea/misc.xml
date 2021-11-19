@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/figmaappp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/background_signin_signup.xml" value="0.26666666666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/btn_signin.xml" value="0.26666666666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/btn_signup.xml" value="0.26666666666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/button_background.xml" value="0.3828125" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/button_next_correct.xml" value="0.3828125" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/buttpn_task.xml" value="0.22135416666666666" />
@@ -13,6 +16,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/drawable/logo_activity_button.xml" value="0.3828125" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/next.xml" value="0.22135416666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/popwrong_button.xml" value="0.3828125" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/rec5.xml" value="0.26666666666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/rectan.xml" value="0.22135416666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/rectask1.xml" value="0.22135416666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/rectask2.xml" value="0.2708333333333333" />
@@ -24,6 +28,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_popupactivity.xml" value="0.20520833333333333" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_splashscreenactivity.xml" value="0.2608695652173913" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task1.xml" value="0.22" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task2.xml" value="0.33" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task3.xml" value="0.25" />
@@ -33,8 +38,13 @@
         <entry key="..\:/figmaappp/app/src/main/res/layout/first_greeting.xml" value="0.30027173913043476" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_correct.xml" value="0.2546875" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_correct2.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_f_circle.xml" value="0.29393115942028986" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_incorrect.xml" value="0.2546875" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_more.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sample.xml" value="0.2546875" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_in.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_t_circles.xml" value="0.29393115942028986" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_tasks.xml" value="0.3120471014492754" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/more_fragment.xml" value="0.3120471014492754" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/popup2.xml" value="0.22" />
@@ -43,6 +53,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/layout/popupwindow.xml" value="0.22" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/rg.xml" value="0.2546875" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/s_circle.xml" value="0.30027173913043476" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/s_circles.xml" value="0.29393115942028986" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/skeleton.xml" value="0.29393115942028986" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/t_circle.xml" value="0.30027173913043476" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/t_circles.xml" value="0.29393115942028986" />

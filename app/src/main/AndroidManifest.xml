@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Figmaappp">
         <activity
-            android:name=".viewpaperActivity1"
+            android:name=".logo_activity"
             android:exported="true" />
         <activity
             android:name=".HomeActivity"
@@ -24,9 +24,6 @@
             android:name=".Task2"
             android:exported="true" />
         <activity
-            android:name=".popupactivity"
-            android:exported="true" />
-        <activity
             android:name=".Task1"
             android:exported="true" />
         <activity
@@ -36,7 +33,7 @@
             android:name=".RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".logo_activity"
+            android:name=".Splashscreenactivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
