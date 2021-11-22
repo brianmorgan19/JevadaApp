@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizQuestions1">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="What does Camera mean in Russian?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/question_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#4D4C4C"/>
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:src="@drawable/camera"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_progress_details"
+            android:orientation="horizontal">
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/progressBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="5"
+            android:indeterminate="false"
+            android:minHeight="50dp"
+            android:progress="0" />
+        <TextView
+            android:id="@+id/count_progress"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="0/5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/optionOne"
+            android:background="@drawable/default_option_border"
+            android:textColor="#969696"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/optionTwo"
+            android:background="@drawable/default_option_border"
+            android:textColor="#969696"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/optionThree"
+            android:background="@drawable/default_option_border"
+            android:textColor="#969696"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/optionFour"
+            android:background="@drawable/default_option_border"
+            android:textColor="#969696"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="Apple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_buttons">
+
+        <Button
+            android:textColor="#969696"
+            android:background="@drawable/button_skip"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Skip"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_skip"/>
+
+            <Button
+                android:background="@drawable/next_button"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Next"
+                android:padding="12dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_next"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

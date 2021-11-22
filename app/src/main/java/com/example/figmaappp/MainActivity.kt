@@ -2,6 +2,7 @@ package com.example.figmaappp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import android.widget.TableLayout
 import androidx.fragment.app.Fragment
@@ -14,20 +15,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        val images = listOf(
-            R.drawable.w1,
-            R.drawable.w2,
-            R.drawable.w1
-        )
+           /** window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+            val images = listOf(
+                R.drawable.w1,
+                R.drawable.w2,
+                R.drawable.w1
+            ) **/
 
-        val adapter = FragmentAdapter(images)
+       // val adapter = FragmentAdapter(images)
 
-        id_viewpaper2.adapter = adapter
+        //id_viewpaper2.adapter = adapter
 
-        TabLayoutMediator(TabLayout, id_viewpaper2){tab,position->
-            tab.text = "Tab ${position + 1}"
-        }.attach()
+        //TabLayoutMediator(TabLayout, id_viewpaper2){tab,position->
+          //  tab.text = "Tab ${position + 1}"
+        //}.attach()
 
 
     }

@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/flSignin"
     android:layout_height="match_parent"
     android:background="@drawable/background1"
     tools:context=".SignIn">
@@ -124,9 +125,6 @@
                 android:layout_marginLeft="97dp"
                 android:layout_marginTop="456dp"
                 android:background="@drawable/socialmedia"/>
-
-
-
 
         </RelativeLayout>
 

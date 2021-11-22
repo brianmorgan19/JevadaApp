@@ -93,8 +93,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerInParent="true"
             android:layout_marginLeft="22dp"
-            android:layout_marginTop="13dp"
-            android:background="@drawable/correct1" />
+            android:layout_marginTop="13dp" />
 
         <TextView
             android:layout_width="85dp"

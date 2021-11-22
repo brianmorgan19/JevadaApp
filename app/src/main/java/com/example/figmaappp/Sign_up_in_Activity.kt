@@ -1,13 +1,13 @@
 package com.example.figmaappp
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 
-class SignIn : Fragment(R.layout.fragment_sign_in) {
-
+class Sign_up_in_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_sign_up_in)
+
 
     }
-
 }
