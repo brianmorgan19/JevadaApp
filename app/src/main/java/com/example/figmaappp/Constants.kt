@@ -2,6 +2,10 @@ package com.example.figmaappp
 
 object Constants{
 
+    const val TOTAL_QUESTIONS: String = "TOTAL_QUESTIONS"
+    const val TOTAL_CORRECT_ANSWERS: String = "CORRECT_ANSWERS"
+
+
     fun getQuestions():ArrayList<QuestionModel>{
 
         val questions = ArrayList<QuestionModel>()

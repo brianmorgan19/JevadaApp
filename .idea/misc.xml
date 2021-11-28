@@ -15,6 +15,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/drawable/default_option_border.xml" value="0.33611111111111114" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/ed_rec.xml" value="0.2708333333333333" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/fgpass_color.xml" value="0.22135416666666666" />
+        <entry key="..\:/figmaappp/app/src/main/res/drawable/finsih_btn.xml" value="0.32314814814814813" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/incorrect_option_style.xml" value="0.2708333333333333" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/logo_activity_button.xml" value="0.3828125" />
@@ -29,6 +30,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/drawable/selected_option.xml" value="0.2708333333333333" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/skip.xml" value="0.22135416666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/drawable/tabindicator.xml" value="0.3416666666666667" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_congrats_great.xml" value="0.33" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_home.xml" value="0.3120471014492754" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_logo.xml" value="0.30027173913043476" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -36,6 +38,7 @@
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_quiz_questions1.xml" value="0.22" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/activity_sign_up.xml" value="0.33697916666666666" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_sign_up_in.xml" value="0.23645833333333333" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_splashscreenactivity.xml" value="0.2608695652173913" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/activity_task1.xml" value="0.22" />
@@ -50,10 +53,14 @@
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_f_circle.xml" value="0.29393115942028986" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_incorrect.xml" value="0.2546875" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_more.xml" value="0.3120471014492754" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sample.xml" value="0.2546875" />
-        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_in.xml" value="0.22" />
-        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_sign_up.xml" value="0.19375" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_signin.xml" value="0.18385416666666668" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_signup.xml" value="0.36666666666666664" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_t_circles.xml" value="0.29393115942028986" />
+        <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_task.xml" value="0.35104166666666664" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/fragment_tasks.xml" value="0.3120471014492754" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/more_fragment.xml" value="0.3120471014492754" />
         <entry key="..\:/figmaappp/app/src/main/res/layout/popup2.xml" value="0.22" />

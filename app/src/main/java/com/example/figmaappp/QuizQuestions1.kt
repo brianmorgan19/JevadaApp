@@ -1,10 +1,12 @@
 package com.example.figmaappp
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -18,6 +20,8 @@ class QuizQuestions1 : AppCompatActivity(), View.OnClickListener{
     private var gSelectedOptionPosition:Int = 0
     private var gOneAttempt: Int = 1
     private var gPressedSecondTime:Boolean = false
+    private var gTOTAL_QUESTIONS:Int = 5
+    private var gCORRECT_ANSWERS:Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +29,8 @@ class QuizQuestions1 : AppCompatActivity(), View.OnClickListener{
 
         gQuestions = Constants.getQuestions()
         setQuestion()
+
+        gTOTAL_QUESTIONS = gQuestions!!.size
 
         optionOne.setOnClickListener(this)
         optionTwo.setOnClickListener(this)
@@ -99,7 +105,10 @@ class QuizQuestions1 : AppCompatActivity(), View.OnClickListener{
                           setQuestion()
 
                         else->{
-                            Toast.makeText(this,"You've complited the test!", Toast.LENGTH_SHORT).show()
+                            val intent = Intent(this, congrats_activity_great::class.java)
+                            intent.putExtra(Constants.TOTAL_QUESTIONS, gTOTAL_QUESTIONS)
+                            intent.putExtra(Constants.TOTAL_CORRECT_ANSWERS, gCORRECT_ANSWERS)
+                            startActivity(intent)
                         }
                     }
 
@@ -109,6 +118,9 @@ class QuizQuestions1 : AppCompatActivity(), View.OnClickListener{
                     val question = gQuestions!!.get(gCurrPosition-1)
                     if(question!!.CorrectAnswer != gSelectedOptionPosition){
                         answerView(gSelectedOptionPosition, R.drawable.incorrect_option_style)
+                    }
+                    else{
+                        gCORRECT_ANSWERS++
                     }
                     answerView(question.CorrectAnswer, R.drawable.correct_option_style)
 

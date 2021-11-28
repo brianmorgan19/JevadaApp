@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.AppCompat.Light.NoActionBar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
@@ -124,6 +125,7 @@
             android:id="@+id/ll_buttons">
 
         <Button
+            app:backgroundTint="@null"
             android:textColor="#969696"
             android:background="@drawable/button_skip"
             android:textAllCaps="false"
@@ -137,6 +139,7 @@
             android:id="@+id/btn_skip"/>
 
             <Button
+                app:backgroundTint="@null"
                 android:background="@drawable/next_button"
                 android:textStyle="bold"
                 android:textColor="#FFFF"

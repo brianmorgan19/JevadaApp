@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flsingup"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="310dp"
+                android:layout_height="550dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/background2" />
+
+            <TextView
+                android:textSize="28sp"
+                android:fontFamily="@font/podkova"
+                android:layout_width="221dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="88dp"
+                android:text="Sing up"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FF9900" />
+
+
+            <EditText
+                android:id="@+id/id_email"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="164dp"
+                android:backgroundTint="#D2D2D2"
+                android:fontFamily="@font/podkova"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:maxLength="33"
+                android:maxLines="1"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/id_password"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="205dp"
+                android:backgroundTint="#D2D2D2"
+                android:fontFamily="@font/podkova"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLength="33"
+                android:maxLines="1"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/id_confirm"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="246dp"
+                android:backgroundTint="#D2D2D2"
+                android:fontFamily="@font/podkova"
+                android:hint="Confirm"
+                android:inputType="textPassword"
+                android:maxLength="33"
+                android:maxLines="1"
+                android:textSize="13dp" />
+
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="170dp"
+                android:layout_height="36dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="320dp"
+                android:background="@drawable/btn_signin"
+                android:fontFamily="@font/podkova"
+                android:padding="1dp"
+                android:text="Sign up"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="388dp"
+                android:fontFamily="@font/podkova"
+                android:text="OR"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#8A8A8A"
+                android:textStyle="bold"
+
+                />
+
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_marginTop="456dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:elevation="20dp"
+                    android:src="@drawable/google"
+                    app:tint="@null" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/white"
+                    android:elevation="20dp"
+                    android:src="@drawable/twitter2"
+                    app:tint="@null" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="20dp"
+                    app:tint="@null"
+                    android:src="@drawable/facebook"
+                    android:backgroundTint="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

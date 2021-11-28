@@ -61,6 +61,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            app:backgroundTint="@null"
             android:id="@+id/button_getStarted"
             android:layout_width="319dp"
             android:layout_height="49dp"

@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatDialogFragment
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.google.android.gms.tasks.Tasks
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -14,9 +16,8 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         supportActionBar?.hide()
         val fragment_more = more()
-        val fragment_tasks = Tasks()
+        val fragment_tasks = Task()
         val fragment_profile = profile()
-
         bottomNavigationView.setOnItemSelectedListener {
             when(it.itemId){
                 R.layout.fragment_more -> currFragment(fragment_more)
