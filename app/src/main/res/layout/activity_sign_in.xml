@@ -49,7 +49,7 @@
                 android:inputType="textEmailAddress"
                 android:maxLength="33"
                 android:maxLines="1"
-                android:textSize="13dp" />
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/id_password1"
@@ -62,19 +62,70 @@
                 android:hint="Password"
                 android:maxLength="33"
                 android:maxLines="1"
-                android:textSize="13dp" />
+                android:textSize="15sp" />
 
             <TextView
-                android:textStyle="bold"
-                android:fontFamily="@font/podkova"
-                android:textSize="12sp"
-                android:layout_marginTop="239dp"
-                android:layout_marginLeft="220dp"
+                android:id="@+id/forgot_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="240.5dp"
+                android:fontFamily="@font/podkova"
                 android:text="Forgot passwrod?"
-                android:textColor="#B6B6B6"/>
+                android:textColor="#B6B6B6"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/warning_text"
+                android:layout_width="216dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="270dp"
+                android:text="Wrong password or email. Try again or click "
+                android:textAlignment="center"
+                android:textColor="#FF4A4A"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2.5dp">
+
+                <TextView
+                    android:id="@+id/warning_text_FORGOTPASSWORD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="284dp"
+                    android:text="Forgot password"
+                    android:textAlignment="center"
+                    android:textColor="#00B6A0"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/warning_reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="284dp"
+                    android:text="to reset it."
+                    android:textAlignment="center"
+                    android:textColor="#FF4A4A"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/icon_warning"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="244dp"
+                android:background="@drawable/warning" />
 
             <Button
                 android:id="@+id/btn_signin"

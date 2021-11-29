@@ -3,17 +3,22 @@ package com.example.figmaappp
 import android.content.Intent
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.strictmode.SqliteObjectLeakedViolation
 import android.provider.ContactsContract.DisplayNameSources.EMAIL
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_sign_in.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
+
+
+        id_email.setSelection(0)
 
         btn_signup.setOnClickListener {
             AddUser()
@@ -44,7 +49,10 @@ class SignUp : AppCompatActivity() {
 
         }
         else{
-            Toast.makeText(this, "Email or password should contain info!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "All fields should be filled!", Toast.LENGTH_SHORT).show()
+            id_email.setHintTextColor(Color.parseColor("#FF8787"))
+            id_password.setHintTextColor(Color.parseColor("#FF8787"))
+            id_confirm.setHintTextColor(Color.parseColor("#FF8787"))
         }
 
     }
