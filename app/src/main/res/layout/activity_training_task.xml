@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".training_task">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:rowCount= "3"
+        android:columnCount="1"
+        android:padding="8dp"
+        android:alignmentMode="alignMargins">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/training_task_family"
+            android:layout_margin="11dp"
+            android:layout_marginTop="43dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#F5BBBB"
+            android:layout_width="0dp"
+            android:layout_height="151dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:background="@drawable/family"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/task_training_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@drawable/background_task1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="23dp"
+                        android:fontFamily="@font/podkova"
+                        android:text="Family"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="11dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#F5BBBB"
+            android:layout_width="0dp"
+            android:layout_height="151dp"
+            android:layout_row="1"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:background="@drawable/family"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@color/common_google_signin_btn_text_dark_pressed" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="17dp"
+                        android:fontFamily="@font/podkova"
+                        android:text="Family"
+                        android:textColor="#00B2FF"
+                        android:textSize="25sp"
+                        android:textStyle="" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</ScrollView>

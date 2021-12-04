@@ -1,10 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tasks">
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Task"
+    android:background="#ECECEC">
+
+        <GridLayout
+            android:overScrollMode="always"
+            android:padding="8dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:id="@+id/MainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/task_grammar"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
 
+                    <TextView
+                        android:id="@+id/textG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Grammar"
+                        android:textColor="#FF8A00"
+                        android:textSize="24sp" />
 
-</FrameLayout>
+                    <ImageView
+                        android:id="@+id/task_voabulary"
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/background_grammar">
+
+                    </ImageView>
+
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                app:cardCornerRadius="8dp"
+                android:layout_margin="15dp"
+                android:padding="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Podcasts"
+                        android:textColor="#FF8A00"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/background_podcasts" />
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#FF8A00"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Vocabulary"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/background_voc"/>
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/task_training"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#FF8A00"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training"
+                        android:textSize="24sp"/>
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/dumbbell"/>
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardCornerRadius="8dp"
+                android:padding="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#FF8A00"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Vocabulary"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/background_grammar"/>
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#FF8A00"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Vocabulary"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="122dp"
+                        android:background="@drawable/background_grammar"/>
+
+                    <ProgressBar
+                        android:layout_marginTop="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+</ScrollView>

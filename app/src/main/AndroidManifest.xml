@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Figmaappp">
         <activity
+            android:name=".task_family"
+            android:exported="true" />
+        <activity
+            android:name=".training_task"
+            android:exported="true" />
+        <activity
             android:name=".SignUp"
             android:exported="true" />
         <activity
@@ -27,11 +33,11 @@
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".signIn"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".signIn"
+            android:name=".HomeActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
